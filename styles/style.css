@@ -114,8 +114,8 @@ header nav .menu input:checked ~ span:nth-last-child(3) {
 header nav .menu input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(1px, 0px);
 }
-/*menu simple con tamaño menor a 720px*/
-@media screen and (min-width: 720px){
+/*menu simple con tamaño menor a 1024px*/
+@media screen and (min-width: 1024px){
     header nav .menu ul {
         position: relative;
         top: 0;
@@ -315,7 +315,7 @@ iframe{
     width: 100%;
     height: auto;
     padding: 0;
-
+    max-width: 480px;
 }
 
 .invitados h2{
@@ -406,7 +406,7 @@ footer div{
 
 /* Desktop*/
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1024px){
     
     header nav .menu ul li a {
         color: black;
@@ -433,6 +433,7 @@ footer div{
         letter-spacing: 0;
         width: 100%;
         margin-bottom: 1rem;
+        margin-top: 4rem;
     }
 
     .presentation p{
